@@ -98,15 +98,30 @@ h1 {
 
 .link{
     display: flex;
-    align-items: center;
+    align-items: left;
+    flex-direction: column;
+    justify-content:center;
+    padding-left: 60px;
+
 }
 
 .padding {
     padding-left: 3px;
 }
 
+a{
+    font-size: 25px;
+    margin: 10px;
+}
 
+a:hover{
+    color: #ED4859;
+    transition: all 0.3s;
+}
 
+.h70 {
+    height: 70vh
+}
 
 
 
